@@ -232,7 +232,28 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         loadPlanetContent(planetId) {
             const t = I18nModule.i18nextInstance.t;
-            document.querySelector('.planet-image').style.backgroundImage = `url(./assets/${planetId}.jpg)`;
+            const planetImageDiv = document.querySelector('.planet-image');
+
+            const imageUrl = `./assets/${planetId}.jpg`;
+            const img = new Image();
+            img.onload = () => {
+                planetImageDiv.style.backgroundImage = `url(${imageUrl})`;
+                planetImageDiv.style.backgroundColor = ''; // Clear fallback
+                planetImageDiv.textContent = ''; // Clear fallback text
+            };
+            img.onerror = () => {
+                planetImageDiv.style.backgroundImage = 'none';
+                planetImageDiv.style.backgroundColor = '#222'; // Dark placeholder
+                planetImageDiv.textContent = `Image for ${planetId} not found. Please place it in /assets/${planetId}.jpg`;
+                planetImageDiv.style.display = 'flex';
+                planetImageDiv.style.alignItems = 'center';
+                planetImageDiv.style.justifyContent = 'center';
+                planetImageDiv.style.textAlign = 'center';
+                planetImageDiv.style.padding = '20px';
+                planetImageDiv.style.color = '#888';
+            };
+            img.src = imageUrl;
+
             document.querySelector('.planet-detail-title').textContent = t(`planets.${planetId}.title`);
             document.querySelector('.planet-detail-subtitle').textContent = t(`planets.${planetId}.subtitle`);
             document.querySelector('.planet-detail-description').innerHTML = t(`planets.${planetId}.description`);
