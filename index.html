@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="site-title">TJ YANG: Architect of Narrative Worlds</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="three-canvas-container"></div>
+
+    <div id="lang-switcher">
+        <button data-lang="zh-TW">繁中</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="ja">JP</button>
+    </div>
+    
+    <button id="back-to-starmap" class="hidden" data-i18n="ui.back">Back</button>
+
+    <main id="view-container">
+
+        <section id="gate-view" class="view active">
+            <h1 data-i18n="gate.title">The key is the spirit</h1>
+            <p data-i18n="gate.button" class="journey-btn">Begin the Journey</p>
+        </section>
+
+        <section id="starmap-view" class="view">
+             <h2 data-i18n="starmap.title" class="starmap-title">The Star Map of Spirits</h2>
+             <div id="planet-info" class="hidden">
+                 <h3 id="planet-title"></h3>
+                 <p id="planet-subtitle"></p>
+             </div>
+        </section>
+
+        <section id="planet-view" class="view">
+            <div class="planet-content">
+                <div class="planet-image"></div>
+                <div class="planet-details">
+                    <h2 class="planet-detail-title"></h2>
+                    <h3 class="planet-detail-subtitle"></h3>
+                    <p class="planet-detail-description"></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/23.7.6/i18next.min.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>

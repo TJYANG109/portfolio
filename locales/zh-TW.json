@@ -1,0 +1,47 @@
+{
+  "translation": {
+    "site-title": "TJ YANG：敘事世界的造境主",
+    "gate": {
+      "title": "關鍵在於精神",
+      "button": "開啟旅程"
+    },
+    "starmap": {
+      "title": "靈魂星圖"
+    },
+    "ui": {
+      "back": "返回星圖"
+    },
+    "planets": {
+      "terra": {
+        "name": "TERRA",
+        "title": "旅途圓 Hanger",
+        "subtitle": "初始之心",
+        "description": "代表著啟程的勇氣，源於家人的支持與追逐夢想的初心。可折疊的衣架象徵著旅程的開端，如同『滾石不生苔』的冒險精神。"
+      },
+      "cybennah": {
+        "name": "CYBENNAH",
+        "title": "PAW 跑鞋",
+        "subtitle": "極致運動家精神",
+        "description": "在無數次的失敗與挫折後，由導師的指引下獲得。體悟到真正的勝利是內在的成長，而非速度。它賦予使用者『獵豹爪子的爆發力』。"
+      },
+      "aquatica": {
+        "name": "AQUATICA",
+        "title": "MANTA 推進器",
+        "subtitle": "探索者精神",
+        "description": "面對未知時，勇氣與好奇心的具象化。它讓人們得以在危險而壯麗的新世界中自由穿梭， embody 了探索未知領域的渴望。"
+      },
+      "eclipsia": {
+        "name": "ECLIPSIA",
+        "title": "Eclipse 時鐘",
+        "subtitle": "永恆之愛",
+        "description": "對愛、分離與記憶等普世情感的深度共情，並理解到『分離』更能彰顯愛的價值。它是一個承載戀人情感與記憶的容器。"
+      },
+      "ekeres": {
+        "name": "EKERES",
+        "title": "GATHER 集結之椅",
+        "subtitle": "合作精神",
+        "description": "領悟到最強大的力量源於團結與協作，將多元的個體轉化為和諧而強大的整體。可以被拆解與重組的特性，正是眾志成城的隱喻。"
+      }
+    }
+  }
+}

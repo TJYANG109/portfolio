@@ -1,0 +1,47 @@
+{
+  "translation": {
+    "site-title": "TJ YANG: Architect of Narrative Worlds",
+    "gate": {
+      "title": "The key is the spirit",
+      "button": "Begin the Journey"
+    },
+    "starmap": {
+      "title": "The Star Map of Spirits"
+    },
+    "ui": {
+      "back": "Back to Starmap"
+    },
+    "planets": {
+      "terra": {
+        "name": "TERRA",
+        "title": "Travel Round Hanger",
+        "subtitle": "The Spirit of Original Intentions",
+        "description": "Representing the courage to begin, inspired by familial support and the will to follow one's dreams. The collapsible hangers symbolize the start of a journey, like a 'rolling stone gathers no moss'."
+      },
+      "cybennah": {
+        "name": "CYBENNAH",
+        "title": "PAW Running Shoes",
+        "subtitle": "The Spirit of Athletic Pursuit",
+        "description": "Earned through failure and mentorship. The realization that true victory is internal growth, not just speed. It grants the user the 'explosive power of a cheetah's claws'."
+      },
+      "aquatica": {
+        "name": "AQUATICA",
+        "title": "MANTA Underwater Scooter",
+        "subtitle": "The Spirit of Exploration",
+        "description": "The embodiment of courage and curiosity in the face of the unknown. It allows one to navigate dangerous and beautiful new worlds, embodying the desire to explore uncharted realms."
+      },
+      "eclipsia": {
+        "name": "ECLIPSIA",
+        "title": "Eclipse Clock",
+        "subtitle": "The Spirit of Eternal Love",
+        "description": "A deep, empathetic dive into the universal emotions of love and separation, understanding that separation reveals love's true value. It is a vessel for lovers' emotions and memories."
+      },
+      "ekeres": {
+        "name": "EKERES",
+        "title": "GATHER Chair",
+        "subtitle": "The Spirit of Cooperation",
+        "description": "The realization that the greatest strength comes from unity. It transforms a diverse group into a harmonious whole. Its ability to be disassembled and reassembled is a metaphor for collective strength."
+      }
+    }
+  }
+}
